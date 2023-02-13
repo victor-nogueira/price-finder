@@ -1,0 +1,72 @@
+
+
+h1{
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+body {
+    background-image: linear-gradient(to right, #011072 , #a187ff);
+}
+
+.input-group{
+    justify-content: center;
+}
+
+.title-search{
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+}
+
+.form-control{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 3%;
+}
+
+.input-group-append {
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 0%;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #030303;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
